@@ -1,0 +1,17 @@
+<layer>
+  <name>water</name>
+  <id>LayerInfoImpl-23760bdd:19dc929b974:-7fed</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-23760bdd:19dc929b974:-7fc8</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-23760bdd:19dc929b974:-7fee</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-04-26 10:20:03.652 UTC</dateCreated>
+  <dateModified>2026-04-26 10:58:51.737 UTC</dateModified>
+</layer>
