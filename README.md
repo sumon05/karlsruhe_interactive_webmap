@@ -17,12 +17,26 @@ Interactive web map of Karlsruhe built with:
 - Styled layers
 - One-click startup
 
-## Run
+## Clone the Project
 
 ```bash
 git clone https://github.com/sumon05/karlsruhe_interactive_webmap.git
-cd karlsruhe-webmap
-start.bat
+cd karlsruhe_interactive_webmap
+```
+
+## Run
+
+### Windows
+
+```bash
+.\start.bat
+```
+
+### Mac / Linux
+
+```bash
+chmod +x start.sh
+./start.sh
 ```
 
 ## Access
