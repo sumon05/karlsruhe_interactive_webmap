@@ -170,7 +170,7 @@ Passwort: geoserver
 ```
 
 ## Architektur
-
+```
 Browser (`localhost:8000`)
 ↓
 Nginx Reverse Proxy
@@ -182,7 +182,7 @@ PostGIS (räumliche Datenbank)
 GeoPackage Import (`ogr2ogr`)
 ↓
 OpenStreetMap Daten (Geofabrik / QGIS)
-
+```
 ## Screenshots
 
 ### Kartenansicht
