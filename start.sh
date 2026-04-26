@@ -1,7 +1,15 @@
 #!/bin/bash
+set -e
 
 echo "Starting Karlsruhe WebGIS..."
 echo
+
+# Check Docker
+if ! docker info >/dev/null 2>&1; then
+  echo "ERROR: Docker Desktop is not running."
+  echo "Please start Docker Desktop and try again."
+  exit 1
+fi
 
 docker compose up -d
 

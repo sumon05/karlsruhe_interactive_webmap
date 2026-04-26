@@ -1,5 +1,5 @@
 <dataStore>
-  <id>DataStoreInfoImpl-23760bdd:19dc929b974:-7ff3</id>
+  <id>DataStoreInfoImpl--57960f2a:19dcaf77787:-8000</id>
   <name>karlsruhe_db</name>
   <type>PostGIS</type>
   <enabled>true</enabled>
@@ -27,7 +27,7 @@
     <entry key="create database">false</entry>
     <entry key="Method used to simplify geometries">FAST</entry>
     <entry key="port">5432</entry>
-    <entry key="passwd">crypt2:IIjMrZVK9Dk9sJJ0N6bM/LUmx57piCXcQcqBy7m5KxY=</entry>
+    <entry key="passwd">crypt2:8JY+eY5hBU1+KK25g9Zf2B9tVgCtyWwQqv60KLEKieU=</entry>
     <entry key="min connections">1</entry>
     <entry key="dbtype">postgis</entry>
     <entry key="namespace">karlsruhe</entry>
@@ -38,7 +38,7 @@
     <entry key="Max connection idle time">300</entry>
   </connectionParameters>
   <__default>false</__default>
-  <dateCreated>2026-04-26 10:01:34.569 UTC</dateCreated>
-  <dateModified>2026-04-26 10:02:08.616 UTC</dateModified>
+  <dateCreated>2026-04-26 18:05:08.863 UTC</dateCreated>
+  <dateModified>2026-04-26 18:32:02.589 UTC</dateModified>
   <disableOnConnFailure>false</disableOnConnFailure>
 </dataStore>

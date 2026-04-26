@@ -13,7 +13,8 @@ const satellite = L.tileLayer(
 );
 
 // GeoServer URL
-const GS = "http://localhost:8081/geoserver/karlsruhe/wms";
+// const GS = "http://localhost:8081/geoserver/karlsruhe/wms";
+const GS = "/geoserver/karlsruhe/wms";
 
 // Layers
 const buildings = L.tileLayer.wms(GS, {

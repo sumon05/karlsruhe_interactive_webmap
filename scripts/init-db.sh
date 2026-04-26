@@ -1,9 +1,10 @@
 #!/bin/bash
+set -e
 
 echo "Checking GIS tables..."
 
-EXISTS=$(docker exec postgis psql -U postgres -d gis -t -c \
-"SELECT EXISTS (
+EXISTS=$(docker compose exec -T postgis psql -U postgres -d gis -t -c "
+SELECT EXISTS (
   SELECT FROM information_schema.tables
   WHERE table_name='roads'
 );" | xargs)
@@ -15,11 +16,7 @@ fi
 
 echo "Importing GeoPackage into PostGIS..."
 
-docker run --rm \
-  --network karlsruhe-webmap_default \
-  -v "$(pwd)/data:/data" \
-  ghcr.io/osgeo/gdal:latest \
-  ogr2ogr \
+docker compose exec -T importer ogr2ogr \
   -overwrite \
   -f PostgreSQL \
   "PG:host=postgis dbname=gis user=postgres password=postgres" \

@@ -1,5 +1,5 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-23760bdd:19dc929b974:-7fee</id>
+  <id>FeatureTypeInfoImpl--57960f2a:19dcaf77787:-7ff7</id>
   <name>water</name>
   <nativeName>water</nativeName>
   <namespace>
@@ -40,7 +40,7 @@
     <entry key="cachingEnabled">false</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-23760bdd:19dc929b974:-7ff3</id>
+    <id>DataStoreInfoImpl--57960f2a:19dcaf77787:-8000</id>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <simpleConversionEnabled>false</simpleConversionEnabled>

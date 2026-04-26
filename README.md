@@ -24,6 +24,13 @@ git clone https://github.com/sumon05/karlsruhe_interactive_webmap.git
 cd karlsruhe_interactive_webmap
 ```
 
+## Prerequisites
+
+Install Docker Desktop:
+
+- Windows / Mac: Docker Desktop
+- Linux: Docker Engine + Docker Compose
+
 ## Run
 
 ### Windows

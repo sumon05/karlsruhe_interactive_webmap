@@ -1,7 +1,7 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl-23760bdd:19dc929b974:-7fef</id>
+  <id>LayerInfoImpl--57960f2a:19dcaf77787:-7ffa</id>
   <enabled>true</enabled>
-  <name>karlsruhe:roads</name>
+  <name>karlsruhe:buildings</name>
   <mimeFormats>
     <string>application/vnd.mapbox-vector-tile</string>
     <string>image/png</string>
@@ -32,7 +32,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>karlsruhe:roads</defaultStyle>
+      <defaultStyle>karlsruhe:buildings</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
