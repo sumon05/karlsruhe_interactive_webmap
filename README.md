@@ -20,7 +20,7 @@ Interactive web map of Karlsruhe built with:
 ## Run
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/sumon05/karlsruhe_interactive_webmap.git
 cd karlsruhe-webmap
 start.bat
 ```
