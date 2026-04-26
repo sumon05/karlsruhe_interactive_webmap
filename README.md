@@ -43,6 +43,8 @@ Install Docker Desktop:
 
 ```bash
 chmod +x start.sh
+chmod +x scripts/init-db.sh
+chmod -R 777 docker/geoserver/data_dir
 ./start.sh
 ```
 
