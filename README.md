@@ -197,6 +197,16 @@ OpenStreetMap Daten (Geofabrik / QGIS)
 
 ![Layer Control](screenshots/layer_control.png)
 
+## Geplante Erweiterungen
+```
+🔎 Suchfunktion für Straßen/Gebäude
+📏 Messwerkzeuge
+🧭 Kartenlegende
+🖥️ Fullscreen-Modus
+✏️ Feature Editing (WFS-T)
+☁️ Deployment in Cloud/VPS
+🔄 CI/CD Pipeline
+```
 ## Troubleshooting
 
 ### Karte lädt nicht
