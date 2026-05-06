@@ -8,16 +8,16 @@ Die Anwendung demonstriert die komplette Pipeline von der Geodatenaufbereitung �
 
 ## Features
 
-* Interaktive Webkarte für die Region Karlsruhe
-* WMS-Layer bereitgestellt über GeoServer
-* Räumliche Datenhaltung mit PostgreSQL / PostGIS
-* Feature-Popup per Klick (GetFeatureInfo)
-* Layer-Steuerung (Ein-/Ausblenden)
-* Individuelles Layer-Styling (SLD)
-* Reverse Proxy via Nginx (CORS-freundlich)
-* Dockerisierte Infrastruktur
-* Plattformübergreifend (Windows / macOS / Linux)
-* Automatisierter Projektstart per Script
+- Interaktive Webkarte für die Region Karlsruhe
+- WMS-Layer bereitgestellt über GeoServer
+- Räumliche Datenhaltung mit PostgreSQL / PostGIS
+- Feature-Popup per Klick (GetFeatureInfo)
+- Layer-Steuerung (Ein-/Ausblenden)
+- Individuelles Layer-Styling (SLD)
+- Reverse Proxy via Nginx (CORS-freundlich)
+- Dockerisierte Infrastruktur
+- Plattformübergreifend (Windows / macOS / Linux)
+- Automatisierter Projektstart per Script
 
 ## Tech Stack
 
@@ -90,9 +90,9 @@ karlsruhe_interactive_webmap/
 
 Installiert sein muss:
 
-* Docker Desktop (Windows / macOS)
-* Docker Engine + Docker Compose (Linux)
-* Git
+- Docker Desktop (Windows / macOS)
+- Docker Engine + Docker Compose (Linux)
+- Git
 
 ---
 
@@ -126,11 +126,11 @@ chmod -R 777 docker/geoserver/data_dir
 
 Beim ersten Start wird automatisch:
 
-* PostgreSQL / PostGIS gestartet
-* GeoServer gestartet
-* Nginx Webserver gestartet
-* GeoPackage in PostGIS importiert
-* Webanwendung bereitgestellt
+- PostgreSQL / PostGIS gestartet
+- GeoServer gestartet
+- Nginx Webserver gestartet
+- GeoPackage in PostGIS importiert
+- Webanwendung bereitgestellt
 
 Ausgabe:
 
@@ -170,19 +170,21 @@ Passwort: geoserver
 ```
 
 ## Architektur
+
 ```
 Browser (`localhost:8000`)
-↓
+        ↓
 Nginx Reverse Proxy
-↓
+        ↓
 GeoServer (`localhost:8081`) ← WMS / GetFeatureInfo
-↓
+        ↓
 PostGIS (räumliche Datenbank)
-↓
+        ↓
 GeoPackage Import (`ogr2ogr`)
-↓
+        ↓
 OpenStreetMap Daten (Geofabrik / QGIS)
 ```
+
 ## Screenshots
 
 ### Kartenansicht
@@ -198,6 +200,7 @@ OpenStreetMap Daten (Geofabrik / QGIS)
 ![Layer Control](screenshots/layer_control.png)
 
 ## Geplante Erweiterungen
+
 ```
 🔎 Suchfunktion für Straßen/Gebäude
 📏 Messwerkzeuge
@@ -207,6 +210,7 @@ OpenStreetMap Daten (Geofabrik / QGIS)
 ☁️ Deployment in Cloud/VPS
 🔄 CI/CD Pipeline
 ```
+
 ## Troubleshooting
 
 ### Karte lädt nicht
@@ -242,9 +246,9 @@ Dann:
 
 Es sollten folgende Tabellen sichtbar sein:
 
-* roads
-* buildings
-* water
+- roads
+- buildings
+- water
 
 ---
 
@@ -263,14 +267,14 @@ docker compose restart geoserver
 
 Folgende Ports müssen frei sein:
 
-* 8000 → Webkarte
-* 8081 → GeoServer
-* 5432 → PostgreSQL
+- 8000 → Webkarte
+- 8081 → GeoServer
+- 5432 → PostgreSQL
 
 ## Datenquelle
 
-* OpenStreetMap Contributors
-* Geofabrik GmbH — https://download.geofabrik.de/
+- OpenStreetMap Contributors
+- Geofabrik GmbH — https://download.geofabrik.de/
 
 ## Lizenz
 
